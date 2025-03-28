@@ -1,9 +1,9 @@
-const count = 30; // Kaç resim yükleneceğini belirtiyoruz
+const count = 30; 
 const imagesDiv = document.querySelector(".images-div");
 
 async function getImages() {
     try {
-        imagesDiv.innerHTML = ""; // Önceki içerikleri temizle
+        imagesDiv.innerHTML = ""; 
 
         for (let i = 0; i < count; i++) {
             const width = 400;
